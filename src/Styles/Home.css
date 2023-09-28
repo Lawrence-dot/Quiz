@@ -1,0 +1,437 @@
+@font-face {  
+    font-family: boldtext;
+    src: url('../Assets/fonts/Ubuntu-Bold.ttf');
+}
+
+.q {
+    overflow: hidden;
+}
+
+.Home {
+    min-width: 300px;
+}
+
+.qsolu {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.App-main {
+    transition: all .6s ease;
+    display: contents;
+}
+
+body {
+    background: linear-gradient(rgb(0, 0, 0), rgb(3, 3, 3));
+    height: 100vh;
+    background-size: cover;
+    /* padding: 100vh; */
+}
+
+.formcontainer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.formcontainer select {
+    background: transparent;
+}
+
+.formcontainer span {
+    text-align: left;
+}
+
+.formque {
+    display: flex;
+    flex-direction: column;
+    margin: 22px 0px;
+}
+
+.formque span {
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.formque select {
+    min-height: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 17px;
+}
+
+.quizlogo {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.timer {
+    color: white;
+}
+
+.submitque {
+    padding: 10px 115px;
+    background-color: rgb(47, 47, 85);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-family: boldtext;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .5s ease;
+    width: 100%;
+}
+
+.submitque:hover {
+    background-color: rgb(49, 48, 48);
+}
+
+.form option {
+    background-color: black;
+    color: white;
+}
+
+.homecontent {
+    margin: 100px auto;
+    max-width: 360px;
+}
+
+.quizlogo img {
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 100%;
+}
+
+.question {
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.question h4 {
+    text-align: left;
+    overflow: auto;
+}
+
+.queopt {
+    display: flex;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid antiquewhite;
+    margin: 17px 0px;
+}
+
+.queopt:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.activeopt {
+    background-color: black;
+    border: 1px solid rgb(47, 47, 85);;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.question p {
+    margin: 0;
+}
+
+.queopt span {
+    margin-right: 5px
+}
+
+.quescontainer {
+    max-width: 400px;
+    margin: 70px auto;
+    color: white;
+    overflow-y: auto;
+}
+
+.quescard {
+    margin-bottom: 30px;
+}
+
+.indicator {
+    background: rgb(47, 47, 85);
+    max-width: 320px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.timeindicator {
+    background: rgb(47, 47, 85);
+    max-width: 320px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.quebtns {
+    display: ;
+}
+
+.next {
+    display: flex;
+}
+
+.qlevel {
+    color: rgb(47, 47, 85);
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.restartbtn {
+    cursor: pointer;
+    color: rgb(47, 47, 85);
+    text-align: right;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+.next span {
+    background-color: rgb(47, 47, 85);
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-weight: 700;
+    cursor: pointer;
+    max-width: 45px;
+}
+
+.next span:first-child {
+    background: transparent;
+    border: 1px solid rgb(47, 47, 85);
+}
+
+.next span:last-child {
+    margin-left: auto;
+}
+
+.next span:hover {
+    opacity: .8;
+    background-color: rgb(78, 78, 138);
+    transition: opacity .5s;
+}
+
+.medal img {
+    max-width: 129px;
+    height: 119px;
+    border-radius: 100%;
+}
+
+.scorecard span {
+    color: white;
+    margin-top: 5px;
+}
+
+.playagain {
+    margin-top: 40px;
+}
+
+.scorerestart {
+    background-color: white;
+    border-radius: 3px;
+    color: black!important;
+    padding: 4px 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.welcome {
+    margin: 60px auto;
+    margin-top: 80px;
+    color: white;
+    max-width: 355px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s ease;
+}
+
+.welcomeimg img {
+    max-width: 60px;
+    max-height: 80px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+
+.welcomebtn {
+    height: 50vh;
+    display: flex;
+}
+
+.welcomebtn button {
+    background-color: rgb(47, 47, 85);
+    color: white;
+    font-weight: 600;
+    padding: 10px 11px;
+    border: none;
+    border-radius: 7px;
+    margin-top: auto;
+    cursor: pointer;
+    transition: all .5s ease;
+    width: 100%;
+    max-height: 50px;
+    margin-bottom: 42px;
+}
+
+.welcomebtn button:hover {
+    background-color: rgb(127, 127, 199);
+}
+
+.flex {
+    display: flex;
+    margin: 10px 0;
+}
+
+.preloader {
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.preloadcontainer {
+    position: fixed;
+    height: 100vh;
+    /* display: none; */
+    width: 100vw;
+    background-color: black;
+}
+
+.preloadcontent {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.preloadcontent img {
+    max-height: 500px;
+    max-width: 370px;
+    z-index: 9;
+    position: relative;
+    margin: auto 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.solucard {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.qsolu span {
+    color: green;
+    margin: 0 auto;
+}
+
+.solucard h4 {
+    margin-bottom: 2px;
+}
+
+.questionssolution h3 {
+    margin-top: 50px;
+    color: white;
+}
+
+.showans-arr {
+    font-weight: 700;
+}
+
+.questionssolution {
+    padding-bottom: 20px;
+    transition: all .5s ease;
+}
+
+.homeicon {
+    max-width: 50px;
+    margin: 20px;
+    margin-right: auto;
+
+}
+
+@media (max-width: 639px) {
+    .formcontainer {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        max-width: 390px;
+        margin: 20px;
+    }
+
+    .quescontainer {
+        max-width: 400px;
+        margin: 30px auto;
+    }
+
+    .welcomebtn {
+        height: 90vh;
+    }
+    
+
+    .questionssolution {
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+
+    .welcome {
+        margin: 60px 20px;
+        height: 90vh;
+        max-width: 340px;
+    }
+
+    .preloadcontent img {
+        max-height: 237px;
+    max-width: 530px;
+
+    }
+    
+
+    .homecontent {
+        padding: 5px;
+        border-radius: 6px;
+        margin: auto;
+    }
+}
+
+@keyframes spin {
+    to {
+      opacity: 0;
+      transform: rotate(380deg);
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      transform: scale(0.35);
+      opacity: 0;
+    }
+  }
+
+  @keyframes pop {
+    from {
+        transform: scale(0.35);
+        opacity: 0;
+      }
+
+    to {
+      opacity: 0.5;
+    }
+
+  }
+
