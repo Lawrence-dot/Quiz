@@ -77,8 +77,8 @@ body {
 }
 
 .submitque {
-    padding: 10px 115px;
-    background-color: rgb(47, 47, 85);
+    padding: 13px 115px;
+    background-color: rgba(85, 85, 148, 0.904);
     color: white;
     border-radius: 8px;
     border: none;
@@ -135,13 +135,14 @@ body {
 
 .activeopt {
     background-color: black;
-    border: 1px solid rgb(47, 47, 85);;
+    border: 1px solid rgba(85, 85, 148, 0.904);;
 }
 
 .hidden {
     visibility: hidden;
     height: 0;
     width: 0;
+    display: none;
 }
 
 .question p {
@@ -164,14 +165,14 @@ body {
 }
 
 .indicator {
-    background: rgb(47, 47, 85);
+    background: rgba(85, 85, 148, 0.904);
     max-width: 320px;
     padding: 10px 30px;
     border-radius: 10px;
 }
 
 .timeindicator {
-    background: rgb(47, 47, 85);
+    background: rgba(85, 85, 148, 0.904);
     max-width: 320px;
     padding: 10px 30px;
     border-radius: 10px;
@@ -186,7 +187,7 @@ body {
 }
 
 .qlevel {
-    color: rgb(47, 47, 85);
+    color: white;
     text-align: left;
     width: 100%;
     display: block;
@@ -196,7 +197,7 @@ body {
 
 .restartbtn {
     cursor: pointer;
-    color: rgb(47, 47, 85);
+    color: white;
     text-align: right;
     width: 100%;
     display: block;
@@ -204,7 +205,7 @@ body {
 }
 
 .next span {
-    background-color: rgb(47, 47, 85);
+    background-color: rgba(85, 85, 148, 0.904);
     padding: 5px 10px;
     border-radius: 7px;
     font-weight: 700;
@@ -214,7 +215,7 @@ body {
 
 .next span:first-child {
     background: transparent;
-    border: 1px solid rgb(47, 47, 85);
+    border: 1px solid rgba(85, 85, 148, 0.904);
 }
 
 .next span:last-child {
@@ -244,9 +245,9 @@ body {
 
 .scorerestart {
     background-color: white;
-    border-radius: 3px;
+    border-radius: 4px;
     color: black!important;
-    padding: 4px 6px;
+    padding: 6px 6px;
     font-weight: 700;
     cursor: pointer;
 }
@@ -275,7 +276,7 @@ body {
 }
 
 .welcomebtn button {
-    background-color: rgb(47, 47, 85);
+    background-color: rgba(85, 85, 148, 0.904);
     color: white;
     font-weight: 600;
     padding: 10px 11px;
@@ -344,6 +345,7 @@ body {
 .questionssolution h3 {
     margin-top: 50px;
     color: white;
+    cursor: pointer;
 }
 
 .showans-arr {
@@ -369,6 +371,10 @@ body {
         flex-direction: column;
         max-width: 390px;
         margin: 20px;
+    }
+
+    .submitque {
+        padding: 10px 115px;
     }
 
     .quescontainer {

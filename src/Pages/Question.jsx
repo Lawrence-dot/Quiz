@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Appcontext } from "../App";
 import Questioncard from "../Components/Questioncard";
 import Solution from "../Components/Solution";
-import { FaHome } from "react-icons/fa";
+import { FaArrowDown, FaArrowUp, FaHome } from "react-icons/fa";
 
 const Questcontext = createContext();
 
@@ -173,7 +173,13 @@ function Question() {
             <h3 onClick={() => setshowans(!showans)}>
               {" "}
               Correct Answers{" "}
-              <span className="showans-arr">{showans ? "^" : "v"}</span>{" "}
+              <span className="showans-arr">
+                {showans ? (
+                  <FaArrowUp size="10px" />
+                ) : (
+                  <FaArrowDown size="10px" />
+                )}
+              </span>{" "}
             </h3>
             {showans &&
               ques?.map((each, index) => {

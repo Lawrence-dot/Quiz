@@ -41,9 +41,6 @@ function Form() {
             state: { ques: res.data.results, data: numref.current.value },
           });
           AppContext.setshowquiz(true);
-        })
-        .catch((err) => {
-          alert("Network Error");
         });
     })();
   };
