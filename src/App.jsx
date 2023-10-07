@@ -24,9 +24,10 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <div className="preloader" id="preloader">
-            <div className="preloadcontainer"></div>
-            <div className="preloadcontent">
-              <img src="./p2.gif" alt="loader" />
+            <div className="preloadcontainer">
+              <div className="preloadcontent">
+                <img src="./p2.gif" alt="loader" />
+              </div>
             </div>
           </div>
           <div className="App-main">
