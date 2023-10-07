@@ -1,4 +1,4 @@
-@font-face {  
+@font-face {
     font-family: boldtext;
     src: url('../Assets/fonts/Ubuntu-Bold.ttf');
 }
@@ -135,7 +135,8 @@ body {
 
 .activeopt {
     background-color: black;
-    border: 1px solid rgba(85, 85, 148, 0.904);;
+    border: 1px solid rgba(85, 85, 148, 0.904);
+    ;
 }
 
 .hidden {
@@ -246,7 +247,7 @@ body {
 .scorerestart {
     background-color: white;
     border-radius: 4px;
-    color: black!important;
+    color: black !important;
     padding: 6px 6px;
     font-weight: 700;
     cursor: pointer;
@@ -375,7 +376,7 @@ body {
     }
 
     .preloadcontent img {
-        margin-top: -70px;
+        margin-top: -80px;
     }
 
     .submitque {
@@ -390,7 +391,7 @@ body {
     .welcomebtn {
         height: 90vh;
     }
-    
+
 
     .questionssolution {
         margin: 20px;
@@ -405,10 +406,10 @@ body {
 
     .preloadcontent img {
         max-height: 237px;
-    max-width: 530px;
+        max-width: 530px;
 
     }
-    
+
 
     .homecontent {
         padding: 5px;
@@ -419,30 +420,30 @@ body {
 
 @keyframes spin {
     to {
-      opacity: 0;
-      transform: rotate(380deg);
+        opacity: 0;
+        transform: rotate(380deg);
     }
-  }
+}
 
-  @keyframes fade {
+@keyframes fade {
     from {
-      opacity: 0.5;
+        opacity: 0.5;
     }
-    to {
-      transform: scale(0.35);
-      opacity: 0;
-    }
-  }
 
-  @keyframes pop {
+    to {
+        transform: scale(0.35);
+        opacity: 0;
+    }
+}
+
+@keyframes pop {
     from {
         transform: scale(0.35);
         opacity: 0;
-      }
-
-    to {
-      opacity: 0.5;
     }
 
-  }
+    to {
+        opacity: 0.5;
+    }
 
+}
