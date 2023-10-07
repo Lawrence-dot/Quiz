@@ -8,7 +8,7 @@
 }
 
 .App {
-    min-width: 300px;
+    min-width: 310px;
 }
 
 .qsolu {
@@ -316,6 +316,7 @@ body {
     display: flex;
     height: 100vh;
     width: 100%;
+    align-items: center;
 }
 
 .preloadcontent img {
@@ -323,9 +324,7 @@ body {
     max-width: 370px;
     z-index: 9;
     position: relative;
-    margin: auto 10px;
     width: 100%;
-    margin: auto;
 }
 
 .solucard {
