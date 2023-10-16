@@ -1,4 +1,4 @@
-@font-face {
+@font-face {  
     font-family: boldtext;
     src: url('../Assets/fonts/Ubuntu-Bold.ttf');
 }
@@ -135,8 +135,7 @@ body {
 
 .activeopt {
     background-color: black;
-    border: 1px solid rgba(85, 85, 148, 0.904);
-    ;
+    border: 1px solid rgba(85, 85, 148, 0.904);;
 }
 
 .hidden {
@@ -247,7 +246,7 @@ body {
 .scorerestart {
     background-color: white;
     border-radius: 4px;
-    color: black !important;
+    color: black!important;
     padding: 6px 6px;
     font-weight: 700;
     cursor: pointer;
@@ -257,7 +256,7 @@ body {
     margin: 60px auto;
     margin-top: 80px;
     color: white;
-    max-width: 355px;
+    max-width: 415px;
     min-height: 90vh;
     display: flex;
     flex-direction: column;
@@ -272,8 +271,8 @@ body {
 }
 
 .welcomebtn {
-    height: 50vh;
     display: flex;
+    margin-top: auto;
 }
 
 .welcomebtn button {
@@ -389,9 +388,9 @@ body {
     }
 
     .welcomebtn {
-        height: 90vh;
+       margin-top: auto;
     }
-
+    
 
     .questionssolution {
         margin: 20px;
@@ -399,17 +398,18 @@ body {
     }
 
     .welcome {
-        margin: 60px 20px;
-        height: 90vh;
+        margin: 25px auto;
+        padding: 0 20px;
+        height: 100vh;
         max-width: 340px;
     }
 
     .preloadcontent img {
         max-height: 237px;
-        max-width: 530px;
+    max-width: 530px;
 
     }
-
+    
 
     .homecontent {
         padding: 5px;
@@ -420,30 +420,30 @@ body {
 
 @keyframes spin {
     to {
-        opacity: 0;
-        transform: rotate(380deg);
+      opacity: 0;
+      transform: rotate(380deg);
     }
-}
+  }
 
-@keyframes fade {
+  @keyframes fade {
     from {
-        opacity: 0.5;
+      opacity: 0.5;
     }
-
     to {
+      transform: scale(0.35);
+      opacity: 0;
+    }
+  }
+
+  @keyframes pop {
+    from {
         transform: scale(0.35);
         opacity: 0;
-    }
-}
-
-@keyframes pop {
-    from {
-        transform: scale(0.35);
-        opacity: 0;
-    }
+      }
 
     to {
-        opacity: 0.5;
+      opacity: 0.5;
     }
 
-}
+  }
+
